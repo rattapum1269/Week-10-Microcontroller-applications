@@ -35,6 +35,7 @@ void app_main(void)
         gpio_set_level(17, LED2_Status);
 
         // delay เล็กน้อย
-        vTaskDelay(pdMS_TO_TICKS(100));
     }
+
+
 }
