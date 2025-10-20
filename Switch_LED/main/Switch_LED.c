@@ -10,6 +10,7 @@ void app_main(void)
     int LED1_Status = 0;
     int SW2_Status = 0;
     int LED2_Status = 0;
+    // 125
 
     // 1. ตั้งค่า GPIO 16,17 เป็น Output สำหรับ LED
     gpio_set_direction(16, GPIO_MODE_OUTPUT);
